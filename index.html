@@ -1,0 +1,170 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TopTank Kenya | Water Storage Tanks, Plastic Bins & Sanitation Products</title><meta name="description" content="Shop TopTank Kenya water storage tanks, plastic bins, sanitation products, road safety barriers and custom-moulded plastic products for homes, farms and businesses."><meta name="keywords" content="TopTank Kenya, water tanks Kenya, plastic water storage tanks, water tank prices, plastic bins, sanitation products, road barriers, rotational moulding Kenya"><meta name="robots" content="index, follow"><meta name="theme-color" content="#0878bd"><meta property="og:title" content="TopTank Kenya | Water Tanks & Plastic Products"><meta property="og:description" content="Explore water storage tanks, plastic bins, sanitation and road safety products from TopTank Kenya."><meta property="og:type" content="website"><link rel="canonical" href="https://toptank.com/"><link rel="stylesheet" href="styles.css"></head><body>
+<header class="mainhead"><div class="wrap nav"><a class="brand" href="#home">TOP<span>TANK</span></a><nav id="navLinks"><a href="#all">ALL PRODUCTS</a><a href="#custom">CUSTOM PRODUCTS</a><a href="#faqs">FAQS</a><a href="#about">ABOUT US</a><a href="#contact">CONTACT US</a><a href="#social">GET SOCIAL</a></nav><div class="navicons"><button id="searchToggle" aria-label="Search">⌕</button><button id="cartOpen" aria-label="Cart">♧ <small id="cartCount2">0</small></button><button class="hamb" id="hamb" aria-label="Open menu" aria-expanded="false">☰</button></div></div></header>
+<div id="app"></div>
+<div class="cartveil" id="cartVeil"><aside class="cartpanel"><div class="carthead"><h2>Your Cart</h2><button id="cartClose">✕</button></div><div id="cartItems"></div><div class="cartbottom"><div class="cart-total">Subtotal <strong id="cartTotal">KSh 0</strong></div><button class="yellowbtn" id="checkout">ORDER VIA WHATSAPP</button><small>Order details will be sent to 0751511091.</small></div></aside></div>
+<div class="searchbar" id="searchBar"><input id="globalSearch" placeholder="Search products…"><button id="doSearch">Search</button></div>
+<a class="floatwa" href="https://wa.me/254751511091" target="_blank" aria-label="WhatsApp">☏</a>
+
+<!-- =========================================================
+     TOPTANK COMPLETE IMAGE LIBRARY — ALL SITE IMAGES
+     Edit image paths here instead of searching through app.js.
+     Place image files in assets/images/ and update the matching path.
+     Includes homepage slides, category tiles, and every product category.
+     ========================================================= -->
+<script>
+window.TOP_TANK_IMAGE_PATHS = {
+  // VERIFIED IMAGE URL FROM YOUR OFFICIAL TOPTANK WEBSITE. Replace/add exact image URLs here.
+  sourceUrls: {
+    // Image URLs supplied by the site owner; use these as source references.
+    productUrls: [
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-99-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-69-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/LACNES01_Black_1-scaled-e1621254777975-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACREC05_Black_2-9-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/SPHERICAL-UNDERGROUND-TANK_2-scaled-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-70-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-101-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-71-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-102-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-72-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-116-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-86-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/SEPTIC-TANK_1-scaled-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACNES01_Black_1-scaled-e1621254777975-3-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/SPHERICAL-UNDERGROUND-TANK_2-scaled-2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-60-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-68-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-118-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-87-500x500.jpeg',
+      'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS19_Beige_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS22_Beige_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS23_Beige_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS25_Beige_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2024/04/LACPLNTS01_CharcoalGrey_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2024/04/LACPLNTS06_CharcoalGrey_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2024/04/LACPLNTS05_Grey_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2025/03/LACPLNTS11_Grey_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS24_EarthBrown_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2025/03/LACPLNTS10_CharcoalGrey_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS28_CharcoalGrey_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2024/04/LACPLNTS04_CharcoalGrey_5-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACB1N19_-Green_1-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN28_Black_1-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN17_Red_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN17_Blue_1-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN18_Green_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN43_Blue_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACB1N19_Grey_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN28_Yellow_3-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN34_Red_7-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN36_Green_6-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN35_Beige_90L_5-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/Road-Barriers_2-e1621257040513-500x500.png',
+      'https://www.toptank.com/wp-content/uploads/2021/05/Road-Traffic-Cone_1-500x500.png',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBARRIER04_Red_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBASIN02_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN01_Black_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN02_NA_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN03_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN03_1-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/pitslab-500x500-1-500x500.jpg'
+    ]
+  },
+  hero: {
+    teal: 'assets/itisha-header-teal.png',
+    blue: 'assets/itisha-header-blue.png',
+    olive: 'assets/itisha-header-olive.png',
+    orange: 'assets/itisha-header-orange.png'
+  },
+  categories: {
+    'tanks': 'assets/images/category-tanks.jpg',
+    'lifestyle': 'assets/images/category-lifestyle.jpg',
+    'bins': 'assets/images/category-bins.jpg',
+    'road': 'assets/images/category-road.jpg',
+    'sanitation': 'assets/images/category-sanitation.jpg'
+  },
+  // EASY-TO-EDIT PRODUCT IMAGE URLS — update these lists to change images in each category.
+  // Keep the URL order aligned with the products shown in that category.
+  editableProductGroups: {
+    bins: [
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN28_Black_1-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN17_Red_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN17_Blue_1-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN18_Green_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN43_Blue_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACB1N19_Grey_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN28_Yellow_3-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN34_Red_7-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN36_Green_6-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN35_Beige_90L_5-500x500.jpg'
+    ],
+    roadSafetyIndustrial: [
+      'https://www.toptank.com/wp-content/uploads/2021/05/Road-Barriers_2-e1621257040513-500x500.png',
+      'https://www.toptank.com/wp-content/uploads/2021/05/Road-Traffic-Cone_1-500x500.png',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBARRIER04_Red_1-500x500.jpg'
+    ],
+    sanitation: [
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACBASIN02_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN01_Black_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN02_NA_2-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN03_1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN03_1-1-500x500.jpg',
+      'https://www.toptank.com/wp-content/uploads/2021/05/pitslab-500x500-1-500x500.jpg'
+    ]
+  },
+  products: {
+    'image-001': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-99-500x500.jpeg',
+    'image-002': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-69-500x500.jpeg',
+    'image-003': 'https://www.toptank.com/wp-content/uploads/2021/04/LACNES01_Black_1-scaled-e1621254777975-500x500.jpg',
+    'image-004': 'https://www.toptank.com/wp-content/uploads/2021/05/LACREC05_Black_2-9-500x500.jpg',
+    'image-005': 'https://www.toptank.com/wp-content/uploads/2021/05/SPHERICAL-UNDERGROUND-TANK_2-scaled-1-500x500.jpg',
+    'image-006': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-70-500x500.jpeg',
+    'image-007': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-101-500x500.jpeg',
+    'image-008': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-71-500x500.jpeg',
+    'image-009': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-102-500x500.jpeg',
+    'image-010': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-72-500x500.jpeg',
+    'image-011': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-116-500x500.jpeg',
+    'image-012': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-86-500x500.jpeg',
+    'image-013': 'https://www.toptank.com/wp-content/uploads/2021/05/SEPTIC-TANK_1-scaled-1-500x500.jpg',
+    'image-014': 'https://www.toptank.com/wp-content/uploads/2021/05/LACNES01_Black_1-scaled-e1621254777975-3-500x500.jpg',
+    'image-015': 'https://www.toptank.com/wp-content/uploads/2021/05/SPHERICAL-UNDERGROUND-TANK_2-scaled-2-500x500.jpg',
+    'image-016': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-60-500x500.jpeg',
+    'image-017': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-68-500x500.jpeg',
+    'image-018': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-118-500x500.jpeg',
+    'image-019': 'https://www.toptank.com/wp-content/uploads/2021/04/TANKS-1-4-scaled-1-e1617825299668-87-500x500.jpeg',
+    'image-020': 'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS19_Beige_1-500x500.jpg',
+    'image-021': 'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS22_Beige_1-500x500.jpg',
+    'image-022': 'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS23_Beige_1-500x500.jpg',
+    'image-023': 'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS25_Beige_1-500x500.jpg',
+    'image-024': 'https://www.toptank.com/wp-content/uploads/2024/04/LACPLNTS01_CharcoalGrey_2-500x500.jpg',
+    'image-025': 'https://www.toptank.com/wp-content/uploads/2024/04/LACPLNTS06_CharcoalGrey_1-500x500.jpg',
+    'image-026': 'https://www.toptank.com/wp-content/uploads/2024/04/LACPLNTS05_Grey_2-500x500.jpg',
+    'image-027': 'https://www.toptank.com/wp-content/uploads/2025/03/LACPLNTS11_Grey_1-500x500.jpg',
+    'image-028': 'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS24_EarthBrown_1-500x500.jpg',
+    'image-029': 'https://www.toptank.com/wp-content/uploads/2025/03/LACPLNTS10_CharcoalGrey_1-500x500.jpg',
+    'image-030': 'https://www.toptank.com/wp-content/uploads/2026/08/LACPLNTS28_CharcoalGrey_1-500x500.jpg',
+    'image-031': 'https://www.toptank.com/wp-content/uploads/2024/04/LACPLNTS04_CharcoalGrey_5-500x500.jpg',
+    'image-032': 'https://www.toptank.com/wp-content/uploads/2021/05/LACB1N19_-Green_1-1-500x500.jpg',
+    'image-033': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN28_Black_1-1-500x500.jpg',
+    'image-034': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN17_Red_2-500x500.jpg',
+    'image-035': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN17_Blue_1-1-500x500.jpg',
+    'image-036': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN18_Green_2-500x500.jpg',
+    'image-037': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN43_Blue_1-500x500.jpg',
+    'image-038': 'https://www.toptank.com/wp-content/uploads/2021/05/LACB1N19_Grey_2-500x500.jpg',
+    'image-039': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN28_Yellow_3-500x500.jpg',
+    'image-040': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN34_Red_7-500x500.jpg',
+    'image-041': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN36_Green_6-500x500.jpg',
+    'image-042': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBIN35_Beige_90L_5-500x500.jpg',
+    'image-043': 'https://www.toptank.com/wp-content/uploads/2021/05/Road-Barriers_2-e1621257040513-500x500.png',
+    'image-044': 'https://www.toptank.com/wp-content/uploads/2021/05/Road-Traffic-Cone_1-500x500.png',
+    'image-045': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBARRIER04_Red_1-500x500.jpg',
+    'image-046': 'https://www.toptank.com/wp-content/uploads/2021/05/LACBASIN02_1-500x500.jpg',
+    'image-047': 'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN01_Black_1-500x500.jpg',
+    'image-048': 'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN02_NA_2-500x500.jpg',
+    'image-049': 'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN03_1-500x500.jpg',
+    'image-050': 'https://www.toptank.com/wp-content/uploads/2021/05/LACMAN03_1-1-500x500.jpg',
+    'image-051': 'https://www.toptank.com/wp-content/uploads/2021/05/pitslab-500x500-1-500x500.jpg'
+  }
+};
+</script>
+<script src="app.js"></script></body></html>
